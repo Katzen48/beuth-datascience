@@ -67,6 +67,7 @@ def guess(char):
 
 if sys.platform.startswith('win'):
     import win32api
+
     win32api.SetConsoleCtrlHandler(signal_handler, True)
 else:
     signal.signal(signal.SIGINT, signal_handler)
@@ -83,4 +84,4 @@ while True:
     if len(char) != 1:
         print_word()
     else:
-        guess(char)
+        guess(char.lower())
