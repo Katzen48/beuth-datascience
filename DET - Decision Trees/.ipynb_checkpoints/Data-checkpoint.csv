@@ -1,0 +1,6 @@
+REC,Age,Income,Student,Credit_rating,Buys_computer
+r1,<=30,High,No,Fair,No
+r2,<=30,High,No,Excellent,No
+r3,31...40,High,No,Fair,Yes
+r4,>40,Medium,No,Fair,Yes
+r5,>40
